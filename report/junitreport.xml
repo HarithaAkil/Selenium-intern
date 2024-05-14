@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="27.463676">
+<testcase classname="To validate the login functionality of facebook application." name="To validate login with valid username and invalid password." time="0.003402">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given To launch the firefox browser and maximize window.....................undefined
+When To launch the url of the facebook application..........................undefined
+And To pass valid username in email field...................................undefined
+And To pass invalid username in password field..............................undefined
+And To click the login button...............................................undefined
+And To check whether navigate to the homepage or not........................undefined
+Then To close the browser...................................................undefined
+]]></failure>
+</testcase>
+<testcase classname="To validate the login functionality of facebook application." name="To validate the positive and negative combination of login functionality" time="0.000818">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given To launch the firefox browser and maximize window.....................undefined
+Given User has to launch the browser and maximize the window................undefined
+When User has to hit the facebook url.......................................undefined
+And User has to pass the data  "harithabscit@gmail.com"  in email field.....undefined
+And User has to pass the data  "haritha" in password field..................undefined
+And User has to click login button..........................................undefined
+Then User has to close the browser..........................................undefined
+]]></failure>
+</testcase>
+<testcase classname="To validate the login functionality of facebook application." name="To validate the positive and negative combination of login functionality 2" time="0.000669">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given To launch the firefox browser and maximize window.....................undefined
+Given User has to launch the browser and maximize the window................undefined
+When User has to hit the facebook url.......................................undefined
+And User has to pass the data  "akil123@gmail.com"  in email field..........undefined
+And User has to pass the data  "akil" in password field.....................undefined
+And User has to click login button..........................................undefined
+Then User has to close the browser..........................................undefined
+]]></failure>
+</testcase>
+<testcase classname="To validate the login functionality of facebook application." name="To validate the positive and negative combination of login functionality 3" time="0.001009">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given To launch the firefox browser and maximize window.....................undefined
+Given User has to launch the browser and maximize the window................undefined
+When User has to hit the facebook url.......................................undefined
+And User has to pass the data  "qwert@gmail.com"  in email field............undefined
+And User has to pass the data  "hastb" in password field....................undefined
+And User has to click login button..........................................undefined
+Then User has to close the browser..........................................undefined
+]]></failure>
+</testcase>
+<testcase classname="To validate the account creation of fb application" name="create new account" time="27.457778">
+<system-out><![CDATA[Given To launch the browser and maximize the window.........................passed
+When To launch the url......................................................passed
+And To cick the create new account..........................................passed
+And To pass first name in frist Text box....................................passed
+And To pass second name  second Text box....................................passed
+And to pass mobilenum or email in email textbox.............................passed
+And to create new password using new password text..........................passed
+Then To close the chrome browser............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
